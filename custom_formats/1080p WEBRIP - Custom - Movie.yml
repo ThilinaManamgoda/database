@@ -1,0 +1,23 @@
+name: 1080p WEBRIP - Custom - Movie
+description: ''
+tags: []
+conditions:
+- maxSize: '2.5'
+  maxSizeUnit: GB
+  minSize: '15'
+  minSizeUnit: GB
+  name: Size
+  negate: false
+  required: true
+  type: size
+- name: WEBRIP
+  negate: false
+  required: true
+  source: webrip
+  type: source
+- name: 1080P
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+tests: []
