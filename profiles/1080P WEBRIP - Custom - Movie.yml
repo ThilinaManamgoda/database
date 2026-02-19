@@ -4,11 +4,11 @@ tags: []
 upgradesAllowed: true
 minCustomFormatScore: 50
 upgradeUntilScore: 50
-minScoreIncrement: 100
+minScoreIncrement: 10
 custom_formats: []
 custom_formats_radarr:
 - name: 1080p WEBRIP - Custom - Movie
-  score: 50
+  score: 100
 custom_formats_sonarr: []
 qualities:
 - id: 11
