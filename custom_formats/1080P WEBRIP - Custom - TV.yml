@@ -1,0 +1,23 @@
+name: 1080P WEBRIP - Custom - TV
+description: ''
+tags: []
+conditions:
+- name: Size
+  type: size
+  required: true
+  negate: false
+  minSize: '0.5'
+  maxSize: '2'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+- name: WEBRIP
+  type: source
+  required: true
+  negate: false
+  source: webrip
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+tests: []
