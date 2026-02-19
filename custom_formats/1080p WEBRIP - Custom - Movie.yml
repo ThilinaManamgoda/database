@@ -4,7 +4,7 @@ tags: []
 conditions:
 - maxSize: '2.5'
   maxSizeUnit: GB
-  minSize: '15'
+  minSize: '1'
   minSizeUnit: GB
   name: Size
   negate: false
