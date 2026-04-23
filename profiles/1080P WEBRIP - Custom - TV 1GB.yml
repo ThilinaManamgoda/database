@@ -1,0 +1,23 @@
+name: 1080P WEBRIP - Custom - TV 1GB
+description: ''
+tags: []
+upgradesAllowed: true
+minCustomFormatScore: 50
+upgradeUntilScore: 50
+minScoreIncrement: 50
+custom_formats: []
+custom_formats_radarr: []
+custom_formats_sonarr:
+- name: 1080P WEBRIP - Custom - TV 1GB
+  score: 50
+qualities:
+- id: 11
+  name: WEBRip-1080p
+- id: 13
+  name: Bluray-720p
+upgrade_until:
+  id: 11
+  name: WEBRip-1080p
+  description: 1080p web rip, either captured using a capture card or re-encoded from
+    a WEB-DL of equal or higher resolution
+language: must_english
